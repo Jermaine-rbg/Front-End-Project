@@ -1,0 +1,115 @@
+/* top image */
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+  }
+  .carousel-caption h3 {
+    color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+
+/* headers */
+h3, h4 {
+    letter-spacing: 10px;
+    font-size: 30px;
+    color:#777;
+}
+
+p {
+    font-size: 20px;
+}
+
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+  }
+
+  
+  /* navbar */
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+
+  /* about us */
+  #band{
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+/* search section */
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+    padding-top: 425px;
+    padding-bottom: 425px;
+  }
+
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+
+  .form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.row {
+    height: 72px;
+}
+
+  /* contact us */
+  #contact {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: white;
+}
+
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+  }
+
+  .nav-tabs li a {
+    color: #777;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
