@@ -1,115 +1,210 @@
 /* top image */
 .carousel-inner img {
-    width: 100%; /* Set width to 100% */
-    margin: auto;
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+}
+.carousel-caption h3 {
+  color: #fff !important;
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
   }
-  .carousel-caption h3 {
-    color: #fff !important;
-  }
-  @media (max-width: 600px) {
-    .carousel-caption {
-      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
-  }
+}
 
 /* headers */
-h3, h4 {
-    letter-spacing: 10px;
-    font-size: 30px;
-    color:#777;
+h3,
+h4 {
+  letter-spacing: 10px;
+  font-size: 30px;
+  color: #777;
 }
 
 p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 body {
-    font: 400 15px/1.8 Lato, sans-serif;
-    color: #777;
-  }
+  font: 400 15px/1.8 Lato, sans-serif;
+  color: #777;
+}
 
-  
-  /* navbar */
-  .navbar {
-    font-family: Montserrat, sans-serif;
-    margin-bottom: 0;
-    background-color: #2d2d30;
-    border: 0;
-    font-size: 11px !important;
-    letter-spacing: 4px;
-    opacity: 0.9;
-  }
-  .navbar li a, .navbar .navbar-brand { 
-    color: #d5d5d5 !important;
-  }
-  .navbar-nav li a:hover {
-    color: #fff !important;
-  }
-  .navbar-nav li.active a {
-    color: #fff !important;
-    background-color: #29292c !important;
-  }
-  .navbar-default .navbar-toggle {
-    border-color: transparent;
-  }
+/* navbar */
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+.navbar li a,
+.navbar .navbar-brand {
+  color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
 
-  /* about us */
-  #band{
-    padding-top: 300px;
-    padding-bottom: 300px;
+/* about us */
+#band {
+  padding-top: 300px;
+  padding-bottom: 300px;
 }
 
 /* search section */
+.search-here {
+  background-color: #2d2d30;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  color: white;
+}
+.text-center {
+  color: white;
+}
 .bg-1 {
-    background: #2d2d30;
-    color: #bdbdbd;
-    padding-top: 425px;
-    padding-bottom: 425px;
-  }
-
-  .bg-1 h3 {color: #fff;}
-  .bg-1 p {font-style: italic;}
-  .list-group-item:first-child {
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-  }
-
-
-  .form-control-borderless {
-    border: none;
+  background: #2d2d30;
+  color: #bdbdbd;
+  padding-top: 425px;
+  padding-bottom: 425px;
 }
 
-.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
-    border: none;
-    outline: none;
-    box-shadow: none;
+.bg-1 h3 {
+  color: #fff;
 }
+.bg-1 p {
+  font-style: italic;
+}
+.list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+
+
+
 
 .row {
-    height: 72px;
+  height: 72px;
 }
 
-  /* contact us */
-  #contact {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: white;
+/* contact us */
+#contact {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: white;
 }
 
-.btn:hover, .btn:focus {
-    border: 1px solid #333;
-    background-color: #fff;
-    color: #000;
-  }
+.btn:hover,
+.btn:focus {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #000;
+}
 
-  .nav-tabs li a {
-    color: #777;
-  }
+.nav-tabs li a {
+  color: #777;
+}
 
-  .btn {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #f1f1f1;
-    border-radius: 0;
-    transition: .2s;
+.btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: 0.2s;
+}
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#description {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+/* #infowindow-content {
+        display: none;
+      } */
+
+#map #infowindow-content {
+  display: inline;
+}
+
+.pac-card {
+  margin: 10px 10px 0 0;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  font-family: Roboto;
+}
+
+#pac-container {
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
+
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px;
+}
+
+.pac-controls label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 30%;
+  margin-top: 11px;
+  padding: 8px;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+#title {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+
+#target {
+  width: 345px;
 }
