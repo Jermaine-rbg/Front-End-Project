@@ -59,6 +59,13 @@ body {
     padding-bottom: 300px;
 }
 
+hr {
+  margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid black;
+}
+
 /* search section */
 .bg-1 {
     background: #2d2d30;
