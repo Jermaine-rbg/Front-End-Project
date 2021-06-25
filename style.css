@@ -13,8 +13,7 @@
 }
 
 /* headers */
-h3,
-h4 {
+h3, h4 {
   letter-spacing: 10px;
   font-size: 30px;
   color: #777;
@@ -22,6 +21,7 @@ h4 {
 
 p {
   font-size: 20px;
+  
 }
 
 body {
@@ -58,6 +58,7 @@ body {
 #band {
   padding-top: 300px;
   padding-bottom: 300px;
+  color: #777;
 }
 
 hr {
@@ -72,10 +73,10 @@ hr {
   background-color: #2d2d30;
   padding-bottom: 50px;
   padding-top: 20px;
-  color: white;
+  
 }
 .text-center {
-  color: white;
+  color: #777;
 }
 .bg-1 {
   background: #2d2d30;
@@ -85,7 +86,7 @@ hr {
 }
 
 .bg-1 h3 {
-  color: #fff;
+  color: white;
 }
 .bg-1 p {
   font-style: italic;
@@ -104,6 +105,7 @@ hr {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: white;
+  color: #777;
 }
 
 .btn:hover,
@@ -195,7 +197,7 @@ body {
   font-family: Roboto;
   font-size: 15px;
   font-weight: 300;
-  margin-left: 30%;
+  margin-left: 25%;
   margin-top: 11px;
   padding: 8px;
   text-overflow: ellipsis;
